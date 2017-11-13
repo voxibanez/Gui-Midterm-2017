@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+Name: Tim Barber, Timothy_Barber@student.uml.edu
+Computer Science Department, UMass Lowell Comp.4610, GUI Programming I
+File: /usr/cs/undergrad/2018/tbarber/public_html/Midterm/index.html Created: 23-oct-2017
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="CSS/style.css" />
+  <title>Car Comparor</title>
+</head>
+
+<body>
+  <p style="text-align: center;font-size:150%;background: linear-gradient(white, grey); border-radius: 50px;"> Tim's Car Calculator </p>
+
+  <div id=Modules>
+    <div id=NothingHere class="centerText">
+      <p style="text-align: center;">Try adding a module from the menu in the bottom right</p>
+    </div>
+  </div>
+
+  <div class="addDropdownMenu ">
+    <button onclick="showMenu() " class="dropbtn ">Add Module</button>
+    <div id="myDropdown" class="dropdown-content ">
+      <button onclick="addBuyModule() " class="dropbtnChild ">Buy</button>
+      <button onclick="addLeaseModule() " class="dropbtnChild ">Lease</button>
+    </div>
+  </div>
+
+  <script src="script.js "></script>
+</body>
+
+</html>
